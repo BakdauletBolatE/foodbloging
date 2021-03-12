@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.main-menu {
+    background-color: #f3f4f9;
+} 
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15px;
+}
+
+.main-menu .container {
+    padding: 20px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li a {
+    text-transform: uppercase; 
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.menu li a:hover {
+    background-color: #58c56f;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* .menu .active {
+    background-color: #58c56f;
+    color: #fff;
+}  */
+
+.menu {
+    margin-bottom: 0;
+}
+
+/* category */
+.categories-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.categories-container .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories-item {
+    width: 30%;
+    position: relative;
+    color: #fff;
+}
+
+.category {
+    width: 80%;
+    margin: 0 auto;
+    height: 397px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.categories-item img {
+    position: absolute;
+    bottom: -20px;
+}
+
+.category h3 {
+    margin-top: 100px;
+}
+
+.category-meat {
+    background-color: #d4bf61;
+}
+
+.category-fruits {
+    background-color: #75c3e4;
+}
+
+.category-milk {
+    background-color: #8badc4;
+}
+
+#carouselExampleCaptions .carousel-inner img {
+    width: 50%;
+}
+
+/* advantage-container */
+
+.advantage-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f3f4f9;
+}
+
+.advantage-container .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantage-container .container .advantage-container-item {
+    width: 40%;
+
+}
+
+.advantage-container-item h2, .advantage{
+    color: #434345;
+}
+
+.advantage {
+    margin-top: 2em;
+}
+
+.advantage i {
+    font-size: 32px;
+    color: #58c56f;
+}
+
+.advantage-image {
+    background-image: url(../img/aierke.png);
+    background-size: cover;
+    background-position: center;
+}
+.advantage p {
+    font-size: 14px;
+}
+.limited-order{
+    padding-top: 115px;
+    padding-bottom:115px;
+}
+
+.limited-order__title{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Berkshire Swash', cursive;
+    position: relative;
+    padding-bottom: 25px;
+}
+.limited-order__title::after{
+    content: "";
+    bottom:0;
+    left:50%;
+    background-color: #35ba52;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    transform: translateX(-50%);
+}
+.limited-order__description{
+    max-width: 570px;
+    margin:50px auto;
+    text-align: center;
+    color:#434345;
+}
+.limited-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.limited-product__img{
+   
+}
+.limited-product__content{
+    display: flex;
+    flex-direction: column;
+}
+.limited-product__item{
+    flex-basis: 50%;
+}
+.limited-product__title{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.limited-product__price{
+    font-size: 30px;
+    color:#35ba52 !important;
+    font-weight: 700;
+}
+.limited-product__price span{
+    font-size: 22px;
+    color:#9b9b9b !important;
+    text-decoration: line-through;
+    font-weight: 500;
+}
+.limited-product__cat{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+   
+}
+.timer{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    max-width: 520px;
+}
+.timer__item{
+    border:4px solid rgb(255, 170, 60);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.timer__item span{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    color:#9b9b9b !important;
+}
+.limited-product__btns{
+    display: flex;
+    margin-top:30px;
+}
+.limited-product__btn{
+    font-size: 14px;
+    color:white;
+    display: block;
+    padding: 10px 25px;
+    border-radius: 3px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(114,226,138,1) 0%, rgba(88,197,111,1) 100%);
+}
+
+
+
+
+
+
+
+.swiper__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-container {
+    width: 100%;
+    height: 500px;
+  }
